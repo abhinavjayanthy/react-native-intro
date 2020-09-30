@@ -4,9 +4,9 @@ import { Text, StyleSheet,View } from 'react-native'
 
 const ComponentsScreen = () => {
     const name = "Abhinav"
-    const greeting = <Text styles = {styles.testStyle2}>My name is {name}</Text>
+    const greeting = <Text style = {styles.testStyle2}>My name is {name}</Text>
     return <View>
-        <Text style={styles.testStyle}>Getting started with react native</Text>
+        <Text style = {styles.testStyle}>Getting started with react native</Text>
         {greeting}
     </View>
 
